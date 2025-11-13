@@ -72,7 +72,7 @@ export function FeatureGrid() {
 
             <div className="relative">
               <div
-                className={`mb-5 relative inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br ${feature.gradient} border-2 border-white/10 group-hover:scale-110 transition-transform duration-300`}
+                className={`mb-5 relative flex sm:inline-flex mx-auto sm:mx-0 h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br ${feature.gradient} border-2 border-white/10 group-hover:scale-110 transition-transform duration-300`}
               >
                 <svg className="absolute w-0 h-0" aria-hidden="true">
                   <defs>
@@ -90,7 +90,7 @@ export function FeatureGrid() {
                   }}
                 />
               </div>
-              <h3 className="text-2xl font-black text-foreground mb-3 group-hover:text-primary transition-colors">
+              <h3 className="text-2xl font-black text-foreground mb-3 group-hover:text-primary transition-colors text-center sm:text-left">
                 {feature.title}
               </h3>
               <p className="text-base text-muted-foreground leading-relaxed font-medium">{feature.description}</p>

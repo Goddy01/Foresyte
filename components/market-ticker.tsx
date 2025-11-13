@@ -28,7 +28,6 @@ export function MarketTicker() {
               <span className="text-green-400">[</span>
               <span className="text-sm font-semibold text-green-400 tracking-wide uppercase">{category.name}</span>
               <span className="text-green-600">]</span>
-              <span className="text-amber-400">●</span>
             </div>
           ))}
         </div>

@@ -177,12 +177,12 @@
 }
 
 .animate-marquee {
-  animation: marquee 60s linear infinite;
+  animation: marquee 19s linear infinite;
 }
 
 @media (min-width: 640px) {
   .animate-marquee {
-    animation: marquee 40s linear infinite;
+    animation: marquee 13s linear infinite;
   }
 }
 
