@@ -13,19 +13,22 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/Foresyte-logo/default.png',
+        type: 'image/png',
+        sizes: '192x192',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
+        url: '/Foresyte-logo/profile.png',
+        type: 'image/png',
+        sizes: '32x32',
       },
       {
-        url: '/icon.svg',
+        url: '/Foresyte-logo/vector/default.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/Foresyte-logo/default.png',
+    shortcut: '/Foresyte-logo/default.png',
   },
 }
 
